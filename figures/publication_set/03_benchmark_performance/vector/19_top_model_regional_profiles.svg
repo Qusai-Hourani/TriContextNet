@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1400" viewBox="0 0 2100 1400" role="img" aria-labelledby="title desc">
+<title id="title">Regional profiles of the top four held-out systems</title>
+<desc id="desc">WT, TC, and ET held-out Dice for the four highest overall-Dice systems.</desc>
+<defs>
+<pattern id="naHatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="#ECEFF1"/><line x1="0" y1="0" x2="0" y2="16" stroke="#9AA5B1" stroke-width="5"/></pattern>
+
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#182230}
+.title{font-size:52px;font-weight:700}.subtitle{font-size:28px;fill:#52606d}
+.axis{font-size:32px;font-weight:600}.tick{font-size:25px;fill:#52606d}
+.label{font-size:28px;font-weight:600}.small{font-size:24px;fill:#52606d}
+.value{font-size:27px;font-weight:600}.tiny{font-size:21px;fill:#52606d}
+</style>
+<rect width="2100" height="1400" fill="#FFFFFF"/>
+<text x="90" y="80" class="title">Regional profiles of the top four held-out systems</text>
+<text x="90" y="128" class="subtitle">Subset rule: four highest observed held-out overall Dice values; ties use model ID.</text>
+<line x1="240" y1="1110" x2="1770" y2="1110" stroke="#D9E2EC" stroke-width="2"/>
+<text x="210" y="1119" text-anchor="end" class="tick">0.0</text>
+<line x1="240" y1="940" x2="1770" y2="940" stroke="#D9E2EC" stroke-width="2"/>
+<text x="210" y="949" text-anchor="end" class="tick">0.2</text>
+<line x1="240" y1="770" x2="1770" y2="770" stroke="#D9E2EC" stroke-width="2"/>
+<text x="210" y="779" text-anchor="end" class="tick">0.4</text>
+<line x1="240" y1="600" x2="1770" y2="600" stroke="#D9E2EC" stroke-width="2"/>
+<text x="210" y="609" text-anchor="end" class="tick">0.6</text>
+<line x1="240" y1="430" x2="1770" y2="430" stroke="#D9E2EC" stroke-width="2"/>
+<text x="210" y="439" text-anchor="end" class="tick">0.8</text>
+<line x1="240" y1="260" x2="1770" y2="260" stroke="#D9E2EC" stroke-width="2"/>
+<text x="210" y="269" text-anchor="end" class="tick">1.0</text>
+<text x="240" y="1170" text-anchor="middle" class="axis" fill="#0072B2">WT</text>
+<text x="1005" y="1170" text-anchor="middle" class="axis" fill="#009E73">TC</text>
+<text x="1770" y="1170" text-anchor="middle" class="axis" fill="#CC79A7">ET</text>
+<polyline points="240,355.24449804111623 1005,399.82210345155306 1770,465.6736173214766" fill="none" stroke="#D55E00" stroke-width="10"/>
+<circle cx="240" cy="355.24449804111623" r="17" fill="#D55E00" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1005" cy="399.82210345155306" r="17" fill="#D55E00" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1770" cy="465.6736173214766" r="17" fill="#D55E00" stroke="#FFFFFF" stroke-width="4"/>
+<polyline points="240,356.1850430080792 1005,401.99617290199274 1770,464.06839863375023" fill="none" stroke="#0072B2" stroke-width="10"/>
+<circle cx="240" cy="356.1850430080792" r="17" fill="#0072B2" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1005" cy="401.99617290199274" r="17" fill="#0072B2" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1770" cy="464.06839863375023" r="17" fill="#0072B2" stroke="#FFFFFF" stroke-width="4"/>
+<polyline points="240,358.43457585822637 1005,410.69007967251275 1770,462.0284452143603" fill="none" stroke="#009E73" stroke-width="10"/>
+<circle cx="240" cy="358.43457585822637" r="17" fill="#009E73" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1005" cy="410.69007967251275" r="17" fill="#009E73" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1770" cy="462.0284452143603" r="17" fill="#009E73" stroke="#FFFFFF" stroke-width="4"/>
+<polyline points="240,362.4917817938176 1005,413.35534333056887 1770,470.91961831473304" fill="none" stroke="#4C78A8" stroke-width="10"/>
+<circle cx="240" cy="362.4917817938176" r="17" fill="#4C78A8" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1005" cy="413.35534333056887" r="17" fill="#4C78A8" stroke="#FFFFFF" stroke-width="4"/>
+<circle cx="1770" cy="470.91961831473304" r="17" fill="#4C78A8" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="300" y1="185" x2="355" y2="185" stroke="#D55E00" stroke-width="10"/>
+<text x="370" y="194" class="small">TriContextNet</text>
+<line x1="730" y1="185" x2="785" y2="185" stroke="#0072B2" stroke-width="10"/>
+<text x="800" y="194" class="small">MK-UNet</text>
+<line x1="1160" y1="185" x2="1215" y2="185" stroke="#009E73" stroke-width="10"/>
+<text x="1230" y="194" class="small">MSMamba</text>
+<line x1="1590" y1="185" x2="1645" y2="185" stroke="#4C78A8" stroke-width="10"/>
+<text x="1660" y="194" class="small">Rolling-Unet-S</text>
+<text x="45" y="685" text-anchor="middle" class="axis" transform="rotate(-90 45 685)">Held-out Dice (0–1; higher is better)</text>
+<text x="90" y="1355" class="tiny">The lines visualise region profiles only; no composite “balance” score is calculated.</text>
+</svg>

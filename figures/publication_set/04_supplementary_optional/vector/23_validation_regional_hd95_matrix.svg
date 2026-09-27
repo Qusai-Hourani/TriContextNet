@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1600" viewBox="0 0 2100 1600" role="img" aria-labelledby="title desc">
+<title id="title">Validation regional HD95 matrix</title>
+<desc id="desc">11-model publication comparison; available frozen values only; TriContextNet remains explicitly NA.</desc>
+<defs>
+<pattern id="naHatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="#ECEFF1"/><line x1="0" y1="0" x2="0" y2="16" stroke="#9AA5B1" stroke-width="5"/></pattern>
+
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#182230}
+.title{font-size:52px;font-weight:700}.subtitle{font-size:28px;fill:#52606d}
+.axis{font-size:32px;font-weight:600}.tick{font-size:25px;fill:#52606d}
+.label{font-size:28px;font-weight:600}.small{font-size:24px;fill:#52606d}
+.value{font-size:27px;font-weight:600}.tiny{font-size:21px;fill:#52606d}
+</style>
+<rect width="2100" height="1600" fill="#FFFFFF"/>
+<text x="90" y="80" class="title">Validation regional HD95 matrix</text>
+<text x="90" y="128" class="subtitle">11-model publication comparison; available frozen values only; TriContextNet remains explicitly NA.</text>
+<text x="1072.5" y="237" text-anchor="middle" class="label" fill="#0072B2">WT</text>
+<text x="1417.5" y="237" text-anchor="middle" class="label" fill="#009E73">TC</text>
+<text x="1762.5" y="237" text-anchor="middle" class="label" fill="#CC79A7">ET</text>
+<text x="872" y="320" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">MK-UNet</tspan></text>
+<rect x="900" y="265" width="339" height="86" fill="#A992C6"/>
+<text x="1069.5" y="322" text-anchor="middle" class="value" style="fill:#182230">9.60</text>
+<rect x="1245" y="265" width="339" height="86" fill="#B39ECD"/>
+<text x="1414.5" y="322" text-anchor="middle" class="value" style="fill:#182230">8.34</text>
+<rect x="1590" y="265" width="339" height="86" fill="#8969B1"/>
+<text x="1759.5" y="322" text-anchor="middle" class="value" style="fill:#FFFFFF">13.53</text>
+<text x="872" y="412" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">MSMamba</tspan></text>
+<rect x="900" y="357" width="339" height="86" fill="#C5B5D8"/>
+<text x="1069.5" y="414" text-anchor="middle" class="value" style="fill:#182230">6.17</text>
+<rect x="1245" y="357" width="339" height="86" fill="#BCAAD3"/>
+<text x="1414.5" y="414" text-anchor="middle" class="value" style="fill:#182230">7.18</text>
+<rect x="1590" y="357" width="339" height="86" fill="#DED5E9"/>
+<text x="1759.5" y="414" text-anchor="middle" class="value" style="fill:#182230">3.04</text>
+<text x="872" y="504" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">standard 2D U-Net</tspan></text>
+<rect x="900" y="449" width="339" height="86" fill="#8F72B6"/>
+<text x="1069.5" y="506" text-anchor="middle" class="value" style="fill:#FFFFFF">12.72</text>
+<rect x="1245" y="449" width="339" height="86" fill="#9B81BD"/>
+<text x="1414.5" y="506" text-anchor="middle" class="value" style="fill:#182230">11.25</text>
+<rect x="1590" y="449" width="339" height="86" fill="#CABBDC"/>
+<text x="1759.5" y="506" text-anchor="middle" class="value" style="fill:#182230">5.53</text>
+<text x="872" y="596" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">Mobile U-ViT</tspan></text>
+<rect x="900" y="541" width="339" height="86" fill="#A48BC3"/>
+<text x="1069.5" y="598" text-anchor="middle" class="value" style="fill:#182230">10.22</text>
+<rect x="1245" y="541" width="339" height="86" fill="#BAA7D1"/>
+<text x="1414.5" y="598" text-anchor="middle" class="value" style="fill:#182230">7.51</text>
+<rect x="1590" y="541" width="339" height="86" fill="#D2C5E1"/>
+<text x="1759.5" y="598" text-anchor="middle" class="value" style="fill:#182230">4.59</text>
+<text x="872" y="688" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">U-KAN</tspan></text>
+<rect x="900" y="633" width="339" height="86" fill="#A68FC5"/>
+<text x="1069.5" y="690" text-anchor="middle" class="value" style="fill:#182230">9.89</text>
+<rect x="1245" y="633" width="339" height="86" fill="#7C59A9"/>
+<text x="1414.5" y="690" text-anchor="middle" class="value" style="fill:#FFFFFF">15.10</text>
+<rect x="1590" y="633" width="339" height="86" fill="#DACFE6"/>
+<text x="1759.5" y="690" text-anchor="middle" class="value" style="fill:#182230">3.60</text>
+<text x="872" y="780" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">Attention U-Net</tspan></text>
+<rect x="900" y="725" width="339" height="86" fill="#9B80BD"/>
+<text x="1069.5" y="782" text-anchor="middle" class="value" style="fill:#182230">11.28</text>
+<rect x="1245" y="725" width="339" height="86" fill="#7C59A9"/>
+<text x="1414.5" y="782" text-anchor="middle" class="value" style="fill:#FFFFFF">15.08</text>
+<rect x="1590" y="725" width="339" height="86" fill="#8969B1"/>
+<text x="1759.5" y="782" text-anchor="middle" class="value" style="fill:#FFFFFF">13.52</text>
+<text x="872" y="872" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">DeepLabV3+</tspan></text>
+<rect x="900" y="817" width="339" height="86" fill="#9A7FBC"/>
+<text x="1069.5" y="874" text-anchor="middle" class="value" style="fill:#182230">11.42</text>
+<rect x="1245" y="817" width="339" height="86" fill="#C2B1D7"/>
+<text x="1414.5" y="874" text-anchor="middle" class="value" style="fill:#182230">6.50</text>
+<rect x="1590" y="817" width="339" height="86" fill="#D3C7E2"/>
+<text x="1759.5" y="874" text-anchor="middle" class="value" style="fill:#182230">4.37</text>
+<text x="872" y="964" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">TriContextNet</tspan></text>
+<rect x="900" y="909" width="339" height="86" fill="url(#naHatch)"/>
+<text x="1069.5" y="966" text-anchor="middle" class="value">NA</text>
+<rect x="1245" y="909" width="339" height="86" fill="url(#naHatch)"/>
+<text x="1414.5" y="966" text-anchor="middle" class="value">NA</text>
+<rect x="1590" y="909" width="339" height="86" fill="url(#naHatch)"/>
+<text x="1759.5" y="966" text-anchor="middle" class="value">NA</text>
+<text x="872" y="1056" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">TinyU-Net</tspan></text>
+<rect x="900" y="1001" width="339" height="86" fill="#A891C6"/>
+<text x="1069.5" y="1058" text-anchor="middle" class="value" style="fill:#182230">9.68</text>
+<rect x="1245" y="1001" width="339" height="86" fill="#7A57A8"/>
+<text x="1414.5" y="1058" text-anchor="middle" class="value" style="fill:#FFFFFF">15.34</text>
+<rect x="1590" y="1001" width="339" height="86" fill="#D8CDE5"/>
+<text x="1759.5" y="1058" text-anchor="middle" class="value" style="fill:#182230">3.81</text>
+<text x="872" y="1148" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">Rolling-Unet-S</tspan></text>
+<rect x="900" y="1093" width="339" height="86" fill="#AD97C9"/>
+<text x="1069.5" y="1150" text-anchor="middle" class="value" style="fill:#182230">9.11</text>
+<rect x="1245" y="1093" width="339" height="86" fill="#7B58A8"/>
+<text x="1414.5" y="1150" text-anchor="middle" class="value" style="fill:#FFFFFF">15.20</text>
+<rect x="1590" y="1093" width="339" height="86" fill="#D6CBE4"/>
+<text x="1759.5" y="1150" text-anchor="middle" class="value" style="fill:#182230">4.01</text>
+<text x="872" y="1240" text-anchor="end" class="label" fill="#182230"><tspan x="872" dy="0">base CMUNeXt</tspan></text>
+<rect x="900" y="1185" width="339" height="86" fill="#B29DCC"/>
+<text x="1069.5" y="1242" text-anchor="middle" class="value" style="fill:#182230">8.48</text>
+<rect x="1245" y="1185" width="339" height="86" fill="#8362AE"/>
+<text x="1414.5" y="1242" text-anchor="middle" class="value" style="fill:#FFFFFF">14.21</text>
+<rect x="1590" y="1185" width="339" height="86" fill="#E0D7EA"/>
+<text x="1759.5" y="1242" text-anchor="middle" class="value" style="fill:#182230">2.80</text>
+<rect x="900" y="1470" width="56" height="34" transform="translate(0 0)" fill="#F7F4F9"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(55 0)" fill="#E7E0EE"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(110 0)" fill="#D6CBE4"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(165 0)" fill="#C6B7D9"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(220 0)" fill="#B6A2CF"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(275 0)" fill="#A68EC4"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(330 0)" fill="#9579B9"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(385 0)" fill="#8565AF"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(440 0)" fill="#7550A4"/>
+<rect x="900" y="1470" width="56" height="34" transform="translate(495 0)" fill="#643C9A"/>
+<rect x="900" y="1470" width="55" height="34" transform="translate(550 0)" fill="#54278F"/>
+<text x="900" y="1452" class="axis">Mean HD95 (lower is better)</text>
+<text x="900" y="1540" class="small">0</text>
+<text x="1505" y="1540" text-anchor="end" class="small">20 mm</text>
+<rect x="1590" y="1466" width="80" height="42" fill="url(#naHatch)"/><text x="1685" y="1497" class="small">NA: unavailable, not imputed</text>
+</svg>

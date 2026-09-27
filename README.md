@@ -4,6 +4,10 @@
 
 This repository provides the TriContextNet implementation, the exact trained checkpoint used in the study, model configurations, preprocessing, inference and evaluation entrypoints, and frozen aggregate results for BraTS 2020.
 
+## Figures
+
+The full curated publication set contains **23 scientific figure concepts**. Browse the [figure collection](figures/publication_set/), [catalog](figures/publication_set/figure_catalog.md), [captions](figures/publication_set/figure_captions.md) and [contact sheet](figures/publication_set/00_all_figures_contact_sheet.png). The corrected architecture is shown below.
+
 ![TriContextNet architecture](figures/tricontextnet_architecture.jpg)
 
 *TriContextNet architecture. Skips are taken after pooling: t1=16×128×128, t2=32×64×64, t3=64×32×32 and t4=96×16×16 (channels×height×width). Decoder dimensions are after upsampling. Attention insets are simplified schematics: channel attention combines global average/max pooling through shared transformations; spatial attention uses channel-wise average/max aggregation before a 7×7 convolution; each gate is conditioned on the upsampled decoder feature. Encoder 5's 8×8 label includes its pooling operation and denotes the same tensor shown as the bottleneck.*
@@ -89,7 +93,7 @@ The evaluator reconstructs no identities and reports aggregate 3D WT/TC/ET Dice 
 
 The study used a fixed 295/37/37 train/validation/held-out partition of 369 labelled BraTS 2020 training cases. The held-out cohort is an internal split, not the official challenge test set. MK-UNet's held-out overall Dice was 0.8265687786102657; the observed difference is small and descriptive, with no statistical-superiority claim. **TriContextNet validation HD95 remains NA.**
 
-[Frozen model comparison](tables/frozen_model_comparison.csv) · [Controlled context ablation](tables/frozen_context_ablation.csv) · [Aggregate figures](figures/README.md)
+[Frozen model comparison](tables/frozen_model_comparison.csv) · [Controlled context ablation](tables/frozen_context_ablation.csv) · [Publication figures](figures/README.md)
 
 ## Benchmark adapters and checkpoints
 

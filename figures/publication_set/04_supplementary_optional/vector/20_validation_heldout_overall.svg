@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1500" viewBox="0 0 2100 1500" role="img" aria-labelledby="title desc">
+<title id="title">Validation and held-out overall Dice</title>
+<desc id="desc">Paired validation and held-out aggregate Dice for the 11-model publication comparison.</desc>
+<defs>
+<pattern id="naHatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="#ECEFF1"/><line x1="0" y1="0" x2="0" y2="16" stroke="#9AA5B1" stroke-width="5"/></pattern>
+
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#182230}
+.title{font-size:52px;font-weight:700}.subtitle{font-size:28px;fill:#52606d}
+.axis{font-size:32px;font-weight:600}.tick{font-size:25px;fill:#52606d}
+.label{font-size:28px;font-weight:600}.small{font-size:24px;fill:#52606d}
+.value{font-size:27px;font-weight:600}.tiny{font-size:21px;fill:#52606d}
+</style>
+<rect width="2100" height="1500" fill="#FFFFFF"/>
+<text x="90" y="80" class="title">Validation and held-out overall Dice</text>
+<text x="90" y="128" class="subtitle">Paired frozen aggregate values; magnified vertical scale 0.790–0.855 is explicitly declared.</text>
+<line x1="480" y1="1270" x2="1410" y2="1270" stroke="#D9E2EC" stroke-width="2"/>
+<text x="450" y="1279" text-anchor="end" class="tick">0.79</text>
+<line x1="480" y1="1113.0769230769229" x2="1410" y2="1113.0769230769229" stroke="#D9E2EC" stroke-width="2"/>
+<text x="450" y="1122.0769230769229" text-anchor="end" class="tick">0.80</text>
+<line x1="480" y1="956.1538461538456" x2="1410" y2="956.1538461538456" stroke="#D9E2EC" stroke-width="2"/>
+<text x="450" y="965.1538461538456" text-anchor="end" class="tick">0.81</text>
+<line x1="480" y1="799.2307692307702" x2="1410" y2="799.2307692307702" stroke="#D9E2EC" stroke-width="2"/>
+<text x="450" y="808.2307692307702" text-anchor="end" class="tick">0.82</text>
+<line x1="480" y1="642.307692307693" x2="1410" y2="642.307692307693" stroke="#D9E2EC" stroke-width="2"/>
+<text x="450" y="651.307692307693" text-anchor="end" class="tick">0.83</text>
+<line x1="480" y1="485.3846153846158" x2="1410" y2="485.3846153846158" stroke="#D9E2EC" stroke-width="2"/>
+<text x="450" y="494.3846153846158" text-anchor="end" class="tick">0.84</text>
+<line x1="480" y1="328.4615384615387" x2="1410" y2="328.4615384615387" stroke="#D9E2EC" stroke-width="2"/>
+<text x="450" y="337.4615384615387" text-anchor="end" class="tick">0.85</text>
+<text x="570" y="205" text-anchor="middle" class="axis">Validation</text>
+<text x="1320" y="205" text-anchor="middle" class="axis">Held-out</text>
+<line x1="570" y1="250" x2="570" y2="1270" stroke="#182230" stroke-width="3"/>
+<line x1="1320" y1="250" x2="1320" y2="1270" stroke="#182230" stroke-width="3"/>
+<line x1="570" y1="633.4978909255638" x2="1320" y2="696.151474115831" stroke="#0072B2" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="633.4978909255638" r="15" fill="#0072B2"/>
+<circle cx="1320" cy="696.151474115831" r="15" fill="#0072B2"/>
+<line x1="570" y1="590.4947355723905" x2="1320" y2="750.9421584313816" stroke="#009E73" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="590.4947355723905" r="15" fill="#009E73"/>
+<circle cx="1320" cy="750.9421584313816" r="15" fill="#009E73"/>
+<line x1="570" y1="719.2036613363658" x2="1320" y2="914.3714280591934" stroke="#6C7A89" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="719.2036613363658" r="15" fill="#6C7A89"/>
+<circle cx="1320" cy="914.3714280591934" r="15" fill="#6C7A89"/>
+<line x1="570" y1="670.5893077929377" x2="1320" y2="929.7746102450592" stroke="#56B4E9" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="670.5893077929377" r="15" fill="#56B4E9"/>
+<circle cx="1320" cy="929.7746102450592" r="15" fill="#56B4E9"/>
+<line x1="570" y1="549.7705223322437" x2="1320" y2="847.5098688430263" stroke="#CC79A7" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="549.7705223322437" r="15" fill="#CC79A7"/>
+<circle cx="1320" cy="847.5098688430263" r="15" fill="#CC79A7"/>
+<line x1="570" y1="847.2571197373861" x2="1320" y2="912.0653686747426" stroke="#7A5195" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="847.2571197373861" r="15" fill="#7A5195"/>
+<circle cx="1320" cy="912.0653686747426" r="15" fill="#7A5195"/>
+<line x1="570" y1="749.7627679005692" x2="1320" y2="1174.5670578061945" stroke="#B07C27" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="749.7627679005692" r="15" fill="#B07C27"/>
+<circle cx="1320" cy="1174.5670578061945" r="15" fill="#B07C27"/>
+<line x1="570" y1="421.7440953813659" x2="1320" y2="686.8628850101298" stroke="#D55E00" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="421.7440953813659" r="15" fill="#D55E00"/>
+<circle cx="1320" cy="686.8628850101298" r="15" fill="#D55E00"/>
+<line x1="570" y1="526.1241332412436" x2="1320" y2="849.3283040124479" stroke="#E69F00" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="526.1241332412436" r="15" fill="#E69F00"/>
+<circle cx="1320" cy="849.3283040124479" r="15" fill="#E69F00"/>
+<line x1="570" y1="506.3761483502276" x2="1320" y2="847.0261134715033" stroke="#4C78A8" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="506.3761483502276" r="15" fill="#4C78A8"/>
+<circle cx="1320" cy="847.0261134715033" r="15" fill="#4C78A8"/>
+<line x1="570" y1="378.8262049240635" x2="1320" y2="924.4697418814062" stroke="#8C6D31" stroke-width="7" opacity="0.82"/>
+<circle cx="570" cy="378.8262049240635" r="15" fill="#8C6D31"/>
+<circle cx="1320" cy="924.4697418814062" r="15" fill="#8C6D31"/>
+<circle cx="1480" cy="247" r="16" fill="#0072B2"/><text x="1480" y="255" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">1</text>
+<text x="1508" y="255" class="small">MK-UNet · Δ -0.0040</text>
+<circle cx="1480" cy="300" r="16" fill="#009E73"/><text x="1480" y="308" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">2</text>
+<text x="1508" y="308" class="small">MSMamba · Δ -0.0102</text>
+<circle cx="1480" cy="353" r="16" fill="#6C7A89"/><text x="1480" y="361" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">3</text>
+<text x="1508" y="361" class="small">standard 2D U-Net · Δ -0.0124</text>
+<circle cx="1480" cy="406" r="16" fill="#56B4E9"/><text x="1480" y="414" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">4</text>
+<text x="1508" y="414" class="small">Mobile U-ViT · Δ -0.0165</text>
+<circle cx="1480" cy="459" r="16" fill="#CC79A7"/><text x="1480" y="467" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">5</text>
+<text x="1508" y="467" class="small">U-KAN · Δ -0.0190</text>
+<circle cx="1480" cy="512" r="16" fill="#7A5195"/><text x="1480" y="520" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">6</text>
+<text x="1508" y="520" class="small">Attention U-Net · Δ -0.0041</text>
+<circle cx="1480" cy="565" r="16" fill="#B07C27"/><text x="1480" y="573" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">7</text>
+<text x="1508" y="573" class="small">DeepLabV3+ · Δ -0.0271</text>
+<circle cx="1480" cy="618" r="16" fill="#D55E00"/><text x="1480" y="626" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">8</text>
+<text x="1508" y="626" class="small">TriContextNet · Δ -0.0169</text>
+<circle cx="1480" cy="671" r="16" fill="#E69F00"/><text x="1480" y="679" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">9</text>
+<text x="1508" y="679" class="small">TinyU-Net · Δ -0.0206</text>
+<circle cx="1480" cy="724" r="16" fill="#4C78A8"/><text x="1480" y="732" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">10</text>
+<text x="1508" y="732" class="small">Rolling-Unet-S · Δ -0.0217</text>
+<circle cx="1480" cy="777" r="16" fill="#8C6D31"/><text x="1480" y="785" text-anchor="middle" font-size="20" font-weight="700" style="fill:#FFFFFF">11</text>
+<text x="1508" y="785" class="small">base CMUNeXt · Δ -0.0348</text>
+<text x="90" y="1445" class="tiny">Δ = held-out minus validation overall Dice. Descriptive pairing only; this is not a causal domain-shift or generalisation estimate.</text>
+</svg>

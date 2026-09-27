@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1150" viewBox="0 0 1900 1150" role="img" aria-labelledby="title desc">
+<title id="title">Frozen validation-only A0/A1/A2 evidence</title>
+<desc id="desc">Publication-layout derivative preserving the exact frozen A0, A1, and A2 Dice values and frozen display annotations.</desc>
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L12,6 L0,12 z" fill="#334155"/></marker>
+
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#0F172A}
+.title{font-size:48px;font-weight:700}.subtitle{font-size:27px;fill:#475569}
+.panel{font-size:31px;font-weight:700}.heading{font-size:27px;font-weight:700}
+.label{font-size:25px;font-weight:600}.small{font-size:22px;fill:#475569}
+.value{font-size:24px;font-weight:700}.note{font-size:24px;fill:#475569}
+</style>
+<rect width="1900" height="1150" fill="#FFFFFF"/>
+<text x="70" y="72" class="title">Frozen validation-only A0/A1/A2 evidence</text>
+<text x="70" y="118" class="subtitle">Exact frozen Dice values; magnified 0.76–0.92 axis. Descriptive only.</text>
+<text x="100" y="190" class="panel">(a) Controlled context ablation</text>
+<text x="1280" y="190" class="panel">(b) Descriptive A2−A1 difference</text>
+<line x1="140" y1="750.00" x2="1160" y2="750.00" stroke="#E2E8F0" stroke-width="3"/>
+<text x="122" y="758.00" text-anchor="end" class="small">0.76</text>
+<line x1="140" y1="623.75" x2="1160" y2="623.75" stroke="#E2E8F0" stroke-width="3"/>
+<text x="122" y="631.75" text-anchor="end" class="small">0.80</text>
+<line x1="140" y1="497.50" x2="1160" y2="497.50" stroke="#E2E8F0" stroke-width="3"/>
+<text x="122" y="505.50" text-anchor="end" class="small">0.84</text>
+<line x1="140" y1="371.25" x2="1160" y2="371.25" stroke="#E2E8F0" stroke-width="3"/>
+<text x="122" y="379.25" text-anchor="end" class="small">0.88</text>
+<line x1="140" y1="245.00" x2="1160" y2="245.00" stroke="#E2E8F0" stroke-width="3"/>
+<text x="122" y="253.00" text-anchor="end" class="small">0.92</text>
+<line x1="140" y1="750" x2="1160" y2="750" stroke="#0F172A" stroke-width="3"/>
+<line x1="140" y1="245" x2="140" y2="750" stroke="#0F172A" stroke-width="3"/>
+<text x="50" y="497.5" text-anchor="middle" class="heading" transform="rotate(-90 50 497.5)">Validation Dice</text>
+<text x="267.5" y="798" text-anchor="middle" class="heading">WT</text>
+<rect x="158.5" y="331.46" width="58" height="418.54" fill="#94A3B8" stroke="#FFFFFF" stroke-width="2"/>
+<text x="187.5" y="318.46" text-anchor="middle" class="value">0.8926</text>
+<rect x="238.5" y="317.40" width="58" height="432.60" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="267.5" y="304.40" text-anchor="middle" class="value">0.8971</text>
+<rect x="318.5" y="316.84" width="58" height="433.16" fill="#0EA5E9" stroke="#FFFFFF" stroke-width="2"/>
+<text x="347.5" y="303.84" text-anchor="middle" class="value">0.8972</text>
+<text x="522.5" y="798" text-anchor="middle" class="heading">TC</text>
+<rect x="413.5" y="599.64" width="58" height="150.36" fill="#94A3B8" stroke="#FFFFFF" stroke-width="2"/>
+<text x="442.5" y="586.64" text-anchor="middle" class="value">0.8076</text>
+<rect x="493.5" y="593.06" width="58" height="156.94" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="522.5" y="580.06" text-anchor="middle" class="value">0.8097</text>
+<rect x="573.5" y="586.86" width="58" height="163.14" fill="#0EA5E9" stroke="#FFFFFF" stroke-width="2"/>
+<text x="602.5" y="573.86" text-anchor="middle" class="value">0.8117</text>
+<text x="777.5" y="798" text-anchor="middle" class="heading">ET</text>
+<rect x="668.5" y="650.77" width="58" height="99.23" fill="#94A3B8" stroke="#FFFFFF" stroke-width="2"/>
+<text x="697.5" y="637.77" text-anchor="middle" class="value">0.7914</text>
+<rect x="748.5" y="583.46" width="58" height="166.54" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="777.5" y="570.46" text-anchor="middle" class="value">0.8128</text>
+<rect x="828.5" y="550.40" width="58" height="199.60" fill="#0EA5E9" stroke="#FFFFFF" stroke-width="2"/>
+<text x="857.5" y="537.40" text-anchor="middle" class="value">0.8232</text>
+<text x="1032.5" y="798" text-anchor="middle" class="heading">Overall</text>
+<rect x="923.5" y="527.29" width="58" height="222.71" fill="#94A3B8" stroke="#FFFFFF" stroke-width="2"/>
+<text x="952.5" y="514.29" text-anchor="middle" class="value">0.8306</text>
+<rect x="1003.5" y="497.98" width="58" height="252.02" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1032.5" y="484.98" text-anchor="middle" class="value">0.8398</text>
+<rect x="1083.5" y="484.70" width="58" height="265.30" fill="#0EA5E9" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1112.5" y="471.70" text-anchor="middle" class="value">0.8441</text>
+<rect x="145" y="821" width="38" height="24" rx="3" fill="#94A3B8"/>
+<text x="197" y="842" class="label">A0 · Historical single slice</text>
+<rect x="650" y="821" width="38" height="24" rx="3" fill="#F59E0B"/>
+<text x="702" y="842" class="label">A1 · Repeated-centre control</text>
+<rect x="145" y="874" width="38" height="24" rx="3" fill="#0EA5E9"/>
+<text x="197" y="895" class="label">A2 · Neighbouring slices</text>
+<line x1="1280" y1="270" x2="1280" y2="735" stroke="#E2E8F0" stroke-width="3"/>
+<text x="1280" y="777" text-anchor="middle" class="small">0.0</text>
+<line x1="1520.909090909091" y1="270" x2="1520.909090909091" y2="735" stroke="#E2E8F0" stroke-width="3"/>
+<text x="1520.909090909091" y="777" text-anchor="middle" class="small">0.5</text>
+<line x1="1761.8181818181818" y1="270" x2="1761.8181818181818" y2="735" stroke="#E2E8F0" stroke-width="3"/>
+<text x="1761.8181818181818" y="777" text-anchor="middle" class="small">1.0</text>
+<line x1="1280" y1="270" x2="1280" y2="735" stroke="#0F172A" stroke-width="3"/>
+<text x="1256" y="334" text-anchor="end" class="heading">WT</text>
+<rect x="1280" y="300" width="8.67" height="50" fill="#0EA5E9"/>
+<text x="1304.67" y="334" class="label">+0.018</text>
+<text x="1256" y="434" text-anchor="end" class="heading">TC</text>
+<rect x="1280" y="400" width="94.92" height="50" fill="#0EA5E9"/>
+<text x="1390.92" y="434" class="label">+0.197</text>
+<text x="1256" y="534" text-anchor="end" class="heading">ET</text>
+<rect x="1280" y="500" width="504.46" height="50" fill="#0EA5E9"/>
+<text x="1800.46" y="534" class="label">+1.047</text>
+<text x="1256" y="634" text-anchor="end" class="heading">Overall</text>
+<rect x="1280" y="600" width="202.85" height="50" fill="#0EA5E9"/>
+<text x="1498.85" y="634" class="label">+0.421</text>
+<text x="1545" y="828" text-anchor="middle" class="heading">A2 − A1 Dice (percentage points)</text>
+<text x="70" y="970" class="note">A0 is historical; A1 is the strict repeated-centre scalar control. No A1 prediction is loaded.</text>
+<text x="70" y="1008" class="note">A2−A1 annotations are carried verbatim from frozen Figure 11; no metric was recomputed.</text>
+<text x="70" y="1046" class="note">Differences are descriptive; no significance test was performed.</text>
+</svg>

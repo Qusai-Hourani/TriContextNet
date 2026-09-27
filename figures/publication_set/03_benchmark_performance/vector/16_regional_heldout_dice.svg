@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img">
+<title>Regional held-out Dice</title>
+<desc>WT, TC, and ET Dice for six frozen models selected for the publication comparison.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#182230}.title{font-size:30px;font-weight:700}.subtitle{font-size:17px;fill:#52606d}.axis{font-size:17px;font-weight:600}.tick{font-size:14px;fill:#52606d}.label{font-size:14px;font-weight:600}.small{font-size:13px;fill:#52606d}</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="110" y="48" class="title">Regional held-out Dice</text>
+<text x="110" y="78" class="subtitle">Frozen results for six publication-relevant models. Descriptive only; magnified Dice axis: 0.65–0.92.</text>
+<line x1="110" y1="700.00" x2="1330" y2="700.00" stroke="#e5e7eb"/>
+<text x="96" y="705.00" text-anchor="end" class="tick">0.65</text>
+<line x1="110" y1="590.74" x2="1330" y2="590.74" stroke="#e5e7eb"/>
+<text x="96" y="595.74" text-anchor="end" class="tick">0.70</text>
+<line x1="110" y1="481.48" x2="1330" y2="481.48" stroke="#e5e7eb"/>
+<text x="96" y="486.48" text-anchor="end" class="tick">0.75</text>
+<line x1="110" y1="372.22" x2="1330" y2="372.22" stroke="#e5e7eb"/>
+<text x="96" y="377.22" text-anchor="end" class="tick">0.80</text>
+<line x1="110" y1="262.96" x2="1330" y2="262.96" stroke="#e5e7eb"/>
+<text x="96" y="267.96" text-anchor="end" class="tick">0.85</text>
+<line x1="110" y1="153.70" x2="1330" y2="153.70" stroke="#e5e7eb"/>
+<text x="96" y="158.70" text-anchor="end" class="tick">0.90</text>
+<rect x="143.67" y="182.46" width="42" height="517.54" fill="#2f6fbb" ><title>MK-UNet WT: 0.886841</title></rect>
+<text x="164.67" y="174.46" text-anchor="middle" class="small">0.887</text>
+<rect x="190.67" y="300.23" width="42" height="399.77" fill="#17a589" ><title>MK-UNet TC: 0.832946</title></rect>
+<text x="211.67" y="292.23" text-anchor="middle" class="small">0.833</text>
+<rect x="237.67" y="459.81" width="42" height="240.19" fill="#d97706" ><title>MK-UNet ET: 0.759920</title></rect>
+<text x="258.67" y="451.81" text-anchor="middle" class="small">0.760</text>
+<text x="211.67" y="730" text-anchor="middle" class="label">MK-UNet</text>
+<rect x="347.00" y="188.24" width="42" height="511.76" fill="#2f6fbb" ><title>MSMamba WT: 0.884195</title></rect>
+<text x="368.00" y="180.24" text-anchor="middle" class="small">0.884</text>
+<rect x="394.00" y="322.58" width="42" height="377.42" fill="#17a589" ><title>MSMamba TC: 0.822718</title></rect>
+<text x="415.00" y="314.58" text-anchor="middle" class="small">0.823</text>
+<rect x="441.00" y="454.56" width="42" height="245.44" fill="#d97706" ><title>MSMamba ET: 0.762319</title></rect>
+<text x="462.00" y="446.56" text-anchor="middle" class="small">0.762</text>
+<text x="415.00" y="730" text-anchor="middle" class="label">MSMamba</text>
+<rect x="550.33" y="180.04" width="42" height="519.96" fill="#2f6fbb" stroke="#9a3412" stroke-width="2"><title>TriContextNet WT: 0.887948</title></rect>
+<text x="571.33" y="172.04" text-anchor="middle" class="small">0.888</text>
+<rect x="597.33" y="294.64" width="42" height="405.36" fill="#17a589" stroke="#9a3412" stroke-width="2"><title>TriContextNet TC: 0.835503</title></rect>
+<text x="618.33" y="286.64" text-anchor="middle" class="small">0.836</text>
+<rect x="644.33" y="463.93" width="42" height="236.07" fill="#d97706" stroke="#9a3412" stroke-width="2"><title>TriContextNet ET: 0.758031</title></rect>
+<text x="665.33" y="455.93" text-anchor="middle" class="small">0.758</text>
+<text x="618.33" y="730" text-anchor="middle" class="label">TriContextNet</text>
+<rect x="753.67" y="185.88" width="42" height="514.12" fill="#2f6fbb" ><title>TinyU-Net WT: 0.885278</title></rect>
+<text x="774.67" y="177.88" text-anchor="middle" class="small">0.885</text>
+<rect x="800.67" y="327.55" width="42" height="372.45" fill="#17a589" ><title>TinyU-Net TC: 0.820441</title></rect>
+<text x="821.67" y="319.55" text-anchor="middle" class="small">0.820</text>
+<rect x="847.67" y="493.05" width="42" height="206.95" fill="#d97706" ><title>TinyU-Net ET: 0.744704</title></rect>
+<text x="868.67" y="485.05" text-anchor="middle" class="small">0.745</text>
+<text x="821.67" y="730" text-anchor="middle" class="label">TinyU-Net</text>
+<rect x="957.00" y="198.67" width="42" height="501.33" fill="#2f6fbb" ><title>Rolling-Unet-S WT: 0.879421</title></rect>
+<text x="978.00" y="190.67" text-anchor="middle" class="small">0.879</text>
+<rect x="1004.00" y="329.43" width="42" height="370.57" fill="#17a589" ><title>Rolling-Unet-S TC: 0.819582</title></rect>
+<text x="1025.00" y="321.43" text-anchor="middle" class="small">0.820</text>
+<rect x="1051.00" y="477.42" width="42" height="222.58" fill="#d97706" ><title>Rolling-Unet-S ET: 0.751859</title></rect>
+<text x="1072.00" y="469.42" text-anchor="middle" class="small">0.752</text>
+<text x="1025.00" y="730" text-anchor="middle" class="label">Rolling-Unet-S</text>
+<rect x="1160.33" y="193.82" width="42" height="506.18" fill="#2f6fbb" ><title>base CMUNeXt WT: 0.881640</title></rect>
+<text x="1181.33" y="185.82" text-anchor="middle" class="small">0.882</text>
+<rect x="1207.33" y="342.25" width="42" height="357.75" fill="#17a589" ><title>base CMUNeXt TC: 0.813715</title></rect>
+<text x="1228.33" y="334.25" text-anchor="middle" class="small">0.814</text>
+<rect x="1254.33" y="501.80" width="42" height="198.20" fill="#d97706" ><title>base CMUNeXt ET: 0.740703</title></rect>
+<text x="1275.33" y="493.80" text-anchor="middle" class="small">0.741</text>
+<text x="1228.33" y="730" text-anchor="middle" class="label">base CMUNeXt</text>
+<line x1="110" y1="700" x2="1330" y2="700" stroke="#182230" stroke-width="1.5"/>
+<line x1="110" y1="110" x2="110" y2="700" stroke="#182230" stroke-width="1.5"/>
+<text x="32" y="405.0" text-anchor="middle" class="axis" transform="rotate(-90 32 405.0)">Dice</text>
+<rect x="500" y="790" width="20" height="20" fill="#2f6fbb"/><text x="530" y="806" class="label">WT</text>
+<rect x="640" y="790" width="20" height="20" fill="#17a589"/><text x="670" y="806" class="label">TC</text>
+<rect x="780" y="790" width="20" height="20" fill="#d97706"/><text x="810" y="806" class="label">ET</text>
+<text x="110" y="860" class="small">Source: canonical frozen comparison table. A1 is validation-only and has no held-out result.</text>
+</svg>

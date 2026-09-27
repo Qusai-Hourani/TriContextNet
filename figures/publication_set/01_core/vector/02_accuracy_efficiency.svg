@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+<title id="title">Accuracy–efficiency comparison</title>
+<desc id="desc">Held-out overall Dice versus GFLOPs for the 11-model publication comparison; numbered markers identify models in the adjacent key, and marker radius follows r=6+19*sqrt(P/Pmax), so area is not proportional to parameters.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#182230}.title{font-size:30px;font-weight:700}.subtitle{font-size:17px;fill:#52606d}.axis{font-size:17px;font-weight:600}.tick{font-size:14px;fill:#52606d}.label{font-size:14px;font-weight:600}.small{font-size:13px;fill:#52606d}</style>
+<rect width="1400" height="900" fill="#FFFFFF"/>
+<text x="120" y="65" class="title">Accuracy–efficiency of the publication comparison</text>
+<text x="120" y="108" class="subtitle">Held-out Dice; marker radius r=6+19√(P/Pmax). Descriptive; magnified Dice axis: 0.79–0.84.</text>
+<line x1="149.61" y1="145" x2="149.61" y2="760" stroke="#e5e7eb"/>
+<text x="149.61" y="788" text-anchor="middle" class="tick">0.3</text>
+<line x1="232.56" y1="145" x2="232.56" y2="760" stroke="#e5e7eb"/>
+<text x="232.56" y="788" text-anchor="middle" class="tick">0.5</text>
+<line x1="345.12" y1="145" x2="345.12" y2="760" stroke="#e5e7eb"/>
+<text x="345.12" y="788" text-anchor="middle" class="tick">1</text>
+<line x1="457.68" y1="145" x2="457.68" y2="760" stroke="#e5e7eb"/>
+<text x="457.68" y="788" text-anchor="middle" class="tick">2</text>
+<line x1="606.48" y1="145" x2="606.48" y2="760" stroke="#e5e7eb"/>
+<text x="606.48" y="788" text-anchor="middle" class="tick">5</text>
+<line x1="719.04" y1="145" x2="719.04" y2="760" stroke="#e5e7eb"/>
+<text x="719.04" y="788" text-anchor="middle" class="tick">10</text>
+<line x1="831.60" y1="145" x2="831.60" y2="760" stroke="#e5e7eb"/>
+<text x="831.60" y="788" text-anchor="middle" class="tick">20</text>
+<line x1="980.39" y1="145" x2="980.39" y2="760" stroke="#e5e7eb"/>
+<text x="980.39" y="788" text-anchor="middle" class="tick">50</text>
+<line x1="120" y1="637.00" x2="1010" y2="637.00" stroke="#e5e7eb"/>
+<text x="106" y="642.00" text-anchor="end" class="tick">0.80</text>
+<line x1="120" y1="391.00" x2="1010" y2="391.00" stroke="#e5e7eb"/>
+<text x="106" y="396.00" text-anchor="end" class="tick">0.82</text>
+<line x1="120" y1="145.00" x2="1010" y2="145.00" stroke="#e5e7eb"/>
+<text x="106" y="150.00" text-anchor="end" class="tick">0.84</text>
+<line x1="120" y1="760" x2="1010" y2="760" stroke="#182230" stroke-width="1.5"/>
+<line x1="120" y1="145" x2="120" y2="760" stroke="#182230" stroke-width="1.5"/>
+<text x="565" y="828" text-anchor="middle" class="axis">GFLOPs per prediction (log scale)</text>
+<text x="34" y="435" text-anchor="middle" class="axis" transform="rotate(-90 34 435)">Held-out overall Dice</text>
+<circle cx="163.37" cy="310.20" r="7.38" fill="#0072B2" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>MK-UNet: 0.326536576 GFLOPs, 0.8265687786102657 Dice, 316110 parameters</title></circle>
+<text x="163.37" y="316.20" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">1</text>
+<circle cx="958.37" cy="353.15" r="25.00" fill="#009E73" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>MSMamba: 43.6584934 GFLOPs, 0.8230772153940786 Dice, 59890624 parameters</title></circle>
+<text x="958.37" y="359.15" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">2</text>
+<circle cx="974.50" cy="481.25" r="19.68" fill="#6C7A89" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>standard 2D U-Net: 48.217718784 GFLOPs, 0.8126626050746593 Dice, 31032516 parameters</title></circle>
+<text x="974.50" y="487.25" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">3</text>
+<circle cx="539.27" cy="493.32" r="8.90" fill="#56B4E9" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>Mobile U-ViT: 3.305439 GFLOPs, 0.8116810297392855 Dice, 1390500 parameters</title></circle>
+<text x="539.27" y="499.32" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">4</text>
+<circle cx="505.25" cy="428.84" r="12.19" fill="#CC79A7" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>U-KAN: 2.68064768 GFLOPs, 0.8169233907109836 Dice, 6356884 parameters</title></circle>
+<text x="505.25" y="434.84" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">5</text>
+<circle cx="984.64" cy="479.44" r="20.49" fill="#7A5195" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>Attention U-Net: 51.324604416 GFLOPs, 0.8128095598393547 Dice, 34843847 parameters</title></circle>
+<text x="984.64" y="485.44" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">6</text>
+<circle cx="710.83" cy="685.20" r="18.68" fill="#B07C27" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>DeepLabV3+: 9.507373568 GFLOPs, 0.7960815110221543 Dice, 26694900 parameters</title></circle>
+<text x="710.83" y="691.20" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">7</text>
+<circle cx="201.74" cy="302.92" r="7.38" fill="#D55E00" fill-opacity="0.84" stroke="#182230" stroke-width="4"><title>TriContextNet: 0.413568384 GFLOPs, 0.8271606985042564 Dice, 317438 parameters</title></circle>
+<text x="201.74" y="308.92" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">8</text>
+<circle cx="446.45" cy="430.27" r="7.70" fill="#E69F00" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>TinyU-Net: 1.866399744 GFLOPs, 0.8168075100384224 Dice, 481308 parameters</title></circle>
+<text x="446.45" y="436.27" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">9</text>
+<circle cx="466.28" cy="428.46" r="9.28" fill="#4C78A8" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>Rolling-Unet-S: 2.10878464 GFLOPs, 0.8169542182591689 Dice, 1783356 parameters</title></circle>
+<text x="466.28" y="434.46" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">10</text>
+<circle cx="668.58" cy="489.17" r="10.36" fill="#8C6D31" fill-opacity="0.84" stroke="#ffffff" stroke-width="2"><title>base CMUNeXt: 7.32909568 GFLOPs, 0.8120190850761849 Dice, 3149380 parameters</title></circle>
+<text x="668.58" y="495.17" text-anchor="middle" font-size="16" font-weight="700" style="fill:#FFFFFF">11</text>
+<text x="1060" y="145" class="axis">Model key</text>
+<circle cx="1072" cy="173" r="13" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="178" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">1</text>
+<text x="1094" y="178" class="label">MK-UNet</text>
+<circle cx="1072" cy="221" r="13" fill="#009E73" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="226" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">2</text>
+<text x="1094" y="226" class="label">MSMamba</text>
+<circle cx="1072" cy="269" r="13" fill="#6C7A89" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="274" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">3</text>
+<text x="1094" y="274" class="label">standard 2D U-Net</text>
+<circle cx="1072" cy="317" r="13" fill="#56B4E9" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="322" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">4</text>
+<text x="1094" y="322" class="label">Mobile U-ViT</text>
+<circle cx="1072" cy="365" r="13" fill="#CC79A7" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="370" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">5</text>
+<text x="1094" y="370" class="label">U-KAN</text>
+<circle cx="1072" cy="413" r="13" fill="#7A5195" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="418" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">6</text>
+<text x="1094" y="418" class="label">Attention U-Net</text>
+<circle cx="1072" cy="461" r="13" fill="#B07C27" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="466" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">7</text>
+<text x="1094" y="466" class="label">DeepLabV3+</text>
+<circle cx="1072" cy="509" r="13" fill="#D55E00" stroke="#182230" stroke-width="3"/>
+<text x="1072" y="514" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">8</text>
+<text x="1094" y="514" class="label">TriContextNet</text>
+<circle cx="1072" cy="557" r="13" fill="#E69F00" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="562" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">9</text>
+<text x="1094" y="562" class="label">TinyU-Net</text>
+<circle cx="1072" cy="605" r="13" fill="#4C78A8" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="610" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">10</text>
+<text x="1094" y="610" class="label">Rolling-Unet-S</text>
+<circle cx="1072" cy="653" r="13" fill="#8C6D31" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1072" y="658" text-anchor="middle" font-size="13" font-weight="700" style="fill:#FFFFFF">11</text>
+<text x="1094" y="658" class="label">base CMUNeXt</text>
+<text x="120" y="850" class="small">Source: canonical frozen comparison table. No new inference or statistical test.</text>
+<text x="120" y="875" class="small">Workloads: 10 systems b1_c4_h256_w256_2d_slice; TriContextNet b1_c12_h256_w256_2p5d_center_slice.</text>
+</svg>

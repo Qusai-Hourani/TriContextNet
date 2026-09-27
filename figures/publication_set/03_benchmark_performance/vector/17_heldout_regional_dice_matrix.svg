@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2100" height="1600" viewBox="0 0 2100 1600" role="img" aria-labelledby="title desc">
+<title id="title">Held-out regional Dice matrix</title>
+<desc id="desc">11-model publication comparison; WT, TC, ET, and overall Dice.</desc>
+<defs>
+<pattern id="naHatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="#ECEFF1"/><line x1="0" y1="0" x2="0" y2="16" stroke="#9AA5B1" stroke-width="5"/></pattern>
+
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#182230}
+.title{font-size:52px;font-weight:700}.subtitle{font-size:28px;fill:#52606d}
+.axis{font-size:32px;font-weight:600}.tick{font-size:25px;fill:#52606d}
+.label{font-size:28px;font-weight:600}.small{font-size:24px;fill:#52606d}
+.value{font-size:27px;font-weight:600}.tiny{font-size:21px;fill:#52606d}
+</style>
+<rect width="2100" height="1600" fill="#FFFFFF"/>
+<text x="90" y="80" class="title">Held-out regional Dice matrix</text>
+<text x="90" y="128" class="subtitle">11-model publication comparison; WT, TC, ET, and overall Dice.</text>
+<text x="967.5" y="237" text-anchor="middle" class="label" fill="#0072B2">WT</text>
+<text x="1252.5" y="237" text-anchor="middle" class="label" fill="#009E73">TC</text>
+<text x="1537.5" y="237" text-anchor="middle" class="label" fill="#CC79A7">ET</text>
+<text x="1822.5" y="237" text-anchor="middle" class="label" fill="#7A5195">Overall</text>
+<text x="797" y="320" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">MK-UNet</tspan></text>
+<rect x="825" y="265" width="279" height="86" fill="#2364A7"/>
+<text x="964.5" y="322" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8868</text>
+<rect x="1110" y="265" width="279" height="86" fill="#306DAD"/>
+<text x="1249.5" y="322" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8329</text>
+<rect x="1395" y="265" width="279" height="86" fill="#417AB4"/>
+<text x="1534.5" y="322" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7599</text>
+<rect x="1680" y="265" width="279" height="86" fill="#316EAD"/>
+<text x="1819.5" y="322" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8266</text>
+<text x="797" y="412" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">MSMamba</tspan></text>
+<rect x="825" y="357" width="279" height="86" fill="#2465A7"/>
+<text x="964.5" y="414" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8842</text>
+<rect x="1110" y="357" width="279" height="86" fill="#326FAE"/>
+<text x="1249.5" y="414" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8227</text>
+<rect x="1395" y="357" width="279" height="86" fill="#4179B4"/>
+<text x="1534.5" y="414" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7623</text>
+<rect x="1680" y="357" width="279" height="86" fill="#326FAE"/>
+<text x="1819.5" y="414" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8231</text>
+<text x="797" y="504" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">standard 2D U-Net</tspan></text>
+<rect x="825" y="449" width="279" height="86" fill="#2566A8"/>
+<text x="964.5" y="506" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8786</text>
+<rect x="1110" y="449" width="279" height="86" fill="#3571AF"/>
+<text x="1249.5" y="506" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8104</text>
+<rect x="1395" y="449" width="279" height="86" fill="#447CB5"/>
+<text x="1534.5" y="506" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7489</text>
+<rect x="1680" y="449" width="279" height="86" fill="#3571AF"/>
+<text x="1819.5" y="506" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8127</text>
+<text x="797" y="596" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">Mobile U-ViT</tspan></text>
+<rect x="825" y="541" width="279" height="86" fill="#2364A7"/>
+<text x="964.5" y="598" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8861</text>
+<rect x="1110" y="541" width="279" height="86" fill="#3571AF"/>
+<text x="1249.5" y="598" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8121</text>
+<rect x="1395" y="541" width="279" height="86" fill="#477EB6"/>
+<text x="1534.5" y="598" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7369</text>
+<rect x="1680" y="541" width="279" height="86" fill="#3571AF"/>
+<text x="1819.5" y="598" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8117</text>
+<text x="797" y="688" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">U-KAN</tspan></text>
+<rect x="825" y="633" width="279" height="86" fill="#2465A8"/>
+<text x="964.5" y="690" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8811</text>
+<rect x="1110" y="633" width="279" height="86" fill="#3370AE"/>
+<text x="1249.5" y="690" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8202</text>
+<rect x="1395" y="633" width="279" height="86" fill="#447CB5"/>
+<text x="1534.5" y="690" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7495</text>
+<rect x="1680" y="633" width="279" height="86" fill="#3470AE"/>
+<text x="1819.5" y="690" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8169</text>
+<text x="797" y="780" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">Attention U-Net</tspan></text>
+<rect x="825" y="725" width="279" height="86" fill="#2566A8"/>
+<text x="964.5" y="782" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8772</text>
+<rect x="1110" y="725" width="279" height="86" fill="#3672AF"/>
+<text x="1249.5" y="782" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8083</text>
+<rect x="1395" y="725" width="279" height="86" fill="#437BB4"/>
+<text x="1534.5" y="782" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7529</text>
+<rect x="1680" y="725" width="279" height="86" fill="#3571AF"/>
+<text x="1819.5" y="782" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8128</text>
+<text x="797" y="872" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">DeepLabV3+</tspan></text>
+<rect x="825" y="817" width="279" height="86" fill="#2666A8"/>
+<text x="964.5" y="874" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8749</text>
+<rect x="1110" y="817" width="279" height="86" fill="#3772AF"/>
+<text x="1249.5" y="874" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8040</text>
+<rect x="1395" y="817" width="279" height="86" fill="#4D82B9"/>
+<text x="1534.5" y="874" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7093</text>
+<rect x="1680" y="817" width="279" height="86" fill="#3974B0"/>
+<text x="1819.5" y="874" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7961</text>
+<text x="797" y="964" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">TriContextNet</tspan></text>
+<rect x="825" y="909" width="279" height="86" fill="#2364A7"/>
+<text x="964.5" y="966" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8879</text>
+<rect x="1110" y="909" width="279" height="86" fill="#2F6DAC"/>
+<text x="1249.5" y="966" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8355</text>
+<rect x="1395" y="909" width="279" height="86" fill="#427AB4"/>
+<text x="1534.5" y="966" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7580</text>
+<rect x="1680" y="909" width="279" height="86" fill="#316EAD"/>
+<text x="1819.5" y="966" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8272</text>
+<text x="797" y="1056" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">TinyU-Net</tspan></text>
+<rect x="825" y="1001" width="279" height="86" fill="#2365A7"/>
+<text x="964.5" y="1058" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8853</text>
+<rect x="1110" y="1001" width="279" height="86" fill="#3370AE"/>
+<text x="1249.5" y="1058" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8204</text>
+<rect x="1395" y="1001" width="279" height="86" fill="#457CB5"/>
+<text x="1534.5" y="1058" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7447</text>
+<rect x="1680" y="1001" width="279" height="86" fill="#3470AE"/>
+<text x="1819.5" y="1058" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8168</text>
+<text x="797" y="1148" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">Rolling-Unet-S</tspan></text>
+<rect x="825" y="1093" width="279" height="86" fill="#2565A8"/>
+<text x="964.5" y="1150" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8794</text>
+<rect x="1110" y="1093" width="279" height="86" fill="#3370AE"/>
+<text x="1249.5" y="1150" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8196</text>
+<rect x="1395" y="1093" width="279" height="86" fill="#437BB5"/>
+<text x="1534.5" y="1150" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7519</text>
+<rect x="1680" y="1093" width="279" height="86" fill="#3470AE"/>
+<text x="1819.5" y="1150" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8170</text>
+<text x="797" y="1240" text-anchor="end" class="label" fill="#182230"><tspan x="797" dy="0">base CMUNeXt</tspan></text>
+<rect x="825" y="1185" width="279" height="86" fill="#2465A8"/>
+<text x="964.5" y="1242" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8816</text>
+<rect x="1110" y="1185" width="279" height="86" fill="#3571AE"/>
+<text x="1249.5" y="1242" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8137</text>
+<rect x="1395" y="1185" width="279" height="86" fill="#467DB6"/>
+<text x="1534.5" y="1242" text-anchor="middle" class="value" style="fill:#FFFFFF">0.7407</text>
+<rect x="1680" y="1185" width="279" height="86" fill="#3571AF"/>
+<text x="1819.5" y="1242" text-anchor="middle" class="value" style="fill:#FFFFFF">0.8120</text>
+<rect x="825" y="1450" width="56" height="34" fill="#F7FBFF"/>
+<rect x="880" y="1450" width="56" height="34" fill="#DFEAF5"/>
+<rect x="935" y="1450" width="56" height="34" fill="#C7D9EB"/>
+<rect x="990" y="1450" width="56" height="34" fill="#AFC8E1"/>
+<rect x="1045" y="1450" width="56" height="34" fill="#97B7D7"/>
+<rect x="1100" y="1450" width="56" height="34" fill="#80A6CE"/>
+<rect x="1155" y="1450" width="56" height="34" fill="#6895C4"/>
+<rect x="1210" y="1450" width="56" height="34" fill="#5084BA"/>
+<rect x="1265" y="1450" width="56" height="34" fill="#3873B0"/>
+<rect x="1320" y="1450" width="56" height="34" fill="#2062A6"/>
+<rect x="1375" y="1450" width="56" height="34" fill="#08519C"/>
+<text x="825" y="1520" class="small">0.0</text>
+<text x="1430" y="1520" text-anchor="end" class="small">1.0</text>
+<text x="1535" y="1478" class="axis">Dice colour scale (fixed 0–1)</text>
+<text x="90" y="1568" class="tiny">Exact values are printed in every cell; colour does not replace the numeric record.</text>
+</svg>
