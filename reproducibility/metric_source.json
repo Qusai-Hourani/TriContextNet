@@ -1,0 +1,14 @@
+{
+  "source_commit": "598e409d939771c7be6cce02001428a7df102b11",
+  "source": "src/evaluation/evaluate_mkunet_brats2020.py",
+  "source_sha256": "4B300BEE311420C48F310198B0E7FFD3BF8D63515D3134A808B4A3B81B70B4BE",
+  "extracted_functions": [
+    "_as_matching_boolean_arrays",
+    "binary_dice",
+    "binary_hd95",
+    "brats_region_masks",
+    "load_metric_runtime",
+    "subject_metrics"
+  ],
+  "change": "Only module header/imports/constants; function bodies unchanged."
+}

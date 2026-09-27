@@ -1,0 +1,54 @@
+{
+  "model": "Attention U-Net",
+  "factory": "attention_unet_brats:create_brats_attention_unet",
+  "upstream": null,
+  "upstream_commit": null,
+  "input_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    0
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 21,
+  "parameters": 34843847,
+  "checkpoint_sha256": "53A31B93C805AC9B068A46F9D2D68045759BE16F593A6A0F1AEF8C4EF16DC4DC",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "FP32 parameters; CUDA BF16 autocast; no GradScaler",
+  "batch_size": 16,
+  "architecture_source": "src/models/attention_unet_brats.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11"
+}

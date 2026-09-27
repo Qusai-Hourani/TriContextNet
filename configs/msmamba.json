@@ -1,0 +1,54 @@
+{
+  "model": "MSMamba",
+  "factory": "msmamba_brats:create_brats_msmamba",
+  "upstream": "MSMamba",
+  "upstream_commit": "295f6a318dd18fd19c66b16c179f28c1e9ac2033",
+  "input_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    0
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 23,
+  "parameters": 59890624,
+  "checkpoint_sha256": "5C2CD2F0173AC5DC5F4E3609651ECFB4F6EDD5A29501446937BE3D8F3A069EA6",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "FP32 parameters; CUDA BF16 autocast; no GradScaler",
+  "batch_size": 16,
+  "architecture_source": "src/models/msmamba_brats.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11"
+}

@@ -1,0 +1,54 @@
+{
+  "model": "U-KAN",
+  "factory": "ukan_brats:create_brats_ukan",
+  "upstream": "U-KAN",
+  "upstream_commit": "b20bf63490f01ba45cc2c18834bc0c4975c12715",
+  "input_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    0
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 52,
+  "parameters": 6356884,
+  "checkpoint_sha256": "4D4F53922DDCC7968EC99B6618D8170ECF8355F9040B60607EAFC323161F2B88",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "FP32 parameters; CUDA BF16 autocast; no GradScaler",
+  "batch_size": 16,
+  "architecture_source": "src/models/ukan_brats.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11"
+}

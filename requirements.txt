@@ -1,0 +1,8 @@
+# Target publication environment; execution was not performed during packaging.
+# Install the matching torch/torchvision build for your CPU or CUDA platform.
+torch==2.10.0
+torchvision==0.25.0
+numpy==2.0.2
+nibabel==5.4.2
+timm==0.6.13
+scipy==1.17.1

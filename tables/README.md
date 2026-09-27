@@ -1,0 +1,3 @@
+# Frozen aggregate tables
+The comparison is an exact field/row projection of the frozen canonical comparison: TriContextNet and ten benchmarks. All numeric strings are unchanged. Historical project-progression material is omitted. No metrics were recalculated. The original aggregate table SHA256 is `9331C4FDB84C157F9638ADCFF8753C1B5CE16F325FC115AF0BB640A26CB230BF`.
+The held-out cohort is a private 37-subject subset of the labelled BraTS 2020 training cohort, not the official challenge test set. TriContextNet validation HD95 is unavailable (NA). Differences are descriptive; no statistical superiority is claimed.

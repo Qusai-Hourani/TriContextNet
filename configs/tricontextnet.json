@@ -1,0 +1,72 @@
+{
+  "model": "TriContextNet",
+  "factory": "tricontextnet:create_tricontextnet",
+  "upstream": "MK-UNet",
+  "upstream_commit": "2fa8b230a057602539af7655203ad434bf56a5b6",
+  "input_shape": [
+    "B",
+    12,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    -1,
+    0,
+    1
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 37,
+  "parameters": 317438,
+  "checkpoint_sha256": "725928D75D3B852D5096564E3B1DE63EB8E52912C8284B8D680490022CEEFF2A",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "FP32 parameters; FP32 forward and backward; no autocast or GradScaler",
+  "batch_size": 16,
+  "architecture_source": "src/models/tricontextnet.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+  "channels": [
+    16,
+    32,
+    64,
+    96,
+    160
+  ],
+  "in_channels": 12,
+  "num_classes": 4,
+  "inference_precision": "FP32",
+  "autocast": false,
+  "output_container": "one-element list; use output[0]",
+  "checkpoint_type": "candidate2_best_by_overall_validation_mean_dice",
+  "model_identity": "A_simple_2p5d_mkunet",
+  "postprocessing": "none; argmax then remove padding; map internal 3 to raw 4",
+  "upstream_source_sha256": "B9BA5ADE1B116AEF3A40CA35D756DCC15DE9336C743A2022F90475BD4DEC7031"
+}

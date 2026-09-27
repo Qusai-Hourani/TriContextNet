@@ -1,0 +1,54 @@
+{
+  "model": "MK-UNet",
+  "factory": "mkunet_brats:create_brats_mkunet",
+  "upstream": "MK-UNet",
+  "upstream_commit": "2fa8b230a057602539af7655203ad434bf56a5b6",
+  "input_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    0
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 37,
+  "parameters": 316110,
+  "checkpoint_sha256": "28029CA9D2D16662C112C244B29D7018F6EB2DCFD820337BD0D7449D0FD0A46E",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "CUDA AMP; dtype UNKNOWN",
+  "batch_size": 16,
+  "architecture_source": "src/models/mkunet_brats.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11"
+}

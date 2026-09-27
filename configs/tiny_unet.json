@@ -1,0 +1,54 @@
+{
+  "model": "TinyU-Net",
+  "factory": "tiny_unet_brats:create_brats_tiny_unet",
+  "upstream": "TinyU-Net",
+  "upstream_commit": "73147721edf36dcb0101f1ec383cb97fe42e36df",
+  "input_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    0
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 23,
+  "parameters": 481308,
+  "checkpoint_sha256": "6152856DEF5F8A793F1B11A56B9E3E6EF37138F09FCA253E7C8D72FC0CADD380",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "FP32 parameters; FP32 forward and backward; no autocast or GradScaler",
+  "batch_size": 16,
+  "architecture_source": "src/models/tiny_unet_brats.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11"
+}

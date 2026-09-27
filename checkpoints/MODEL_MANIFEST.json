@@ -1,0 +1,310 @@
+[
+  {
+    "model": "MK-UNet",
+    "id": "mkunet",
+    "filename": "best_model.pth",
+    "sha256": "28029CA9D2D16662C112C244B29D7018F6EB2DCFD820337BD0D7449D0FD0A46E",
+    "bytes": 4213954,
+    "config": "configs/mkunet.json",
+    "included": false,
+    "path": null,
+    "redistribution_basis": "Weights not distributed. Architecture source terms: BSD-3-Clause.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Original serialized metadata contains personal paths; checkpoint omitted without rewriting. Exact identity and frozen aggregate results are documented."
+  },
+  {
+    "model": "MSMamba",
+    "id": "msmamba",
+    "filename": "best_model.pth",
+    "sha256": "5C2CD2F0173AC5DC5F4E3609651ECFB4F6EDD5A29501446937BE3D8F3A069EA6",
+    "bytes": 719030886,
+    "config": "configs/msmamba.json",
+    "included": false,
+    "path": null,
+    "redistribution_basis": "Weights not distributed. Architecture source terms: Apache-2.0 (msmamba subtree).",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Original serialized metadata contains personal paths; checkpoint omitted without rewriting. Exact identity and frozen aggregate results are documented."
+  },
+  {
+    "model": "standard 2D U-Net",
+    "id": "standard_unet",
+    "filename": "best_model.pth",
+    "sha256": "5E1CAB138642745EB4A87E1B34518640866854FAD1E29F715C6111C3055E5BCC",
+    "bytes": 124151641,
+    "config": "configs/standard_unet.json",
+    "included": false,
+    "path": null,
+    "redistribution_basis": "Weights not distributed. Architecture source terms: project-owned implementation.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Original serialized metadata contains personal paths; checkpoint omitted without rewriting. Exact identity and frozen aggregate results are documented."
+  },
+  {
+    "model": "Mobile U-ViT",
+    "id": "mobile_uvit",
+    "filename": "best_model.pth",
+    "sha256": "EC8E23FC11524C402E1A28215DBA7A50E484C87B32ADB532E63E12619DE13CA1",
+    "bytes": 5727671,
+    "config": "configs/mobile_uvit.json",
+    "included": false,
+    "path": null,
+    "redistribution_basis": "Weights not distributed. Architecture source terms: Apache-2.0.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Original serialized metadata contains personal paths; checkpoint omitted without rewriting. Exact identity and frozen aggregate results are documented."
+  },
+  {
+    "model": "U-KAN",
+    "id": "ukan",
+    "filename": "best_model.pth",
+    "sha256": "4D4F53922DDCC7968EC99B6618D8170ECF8355F9040B60607EAFC323161F2B88",
+    "bytes": 25655395,
+    "config": "configs/ukan.json",
+    "included": false,
+    "path": null,
+    "redistribution_basis": "Weights not distributed. Architecture source terms: MIT (Seg_UKAN subtree).",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Original serialized metadata contains personal paths; checkpoint omitted without rewriting. Exact identity and frozen aggregate results are documented."
+  },
+  {
+    "model": "Attention U-Net",
+    "id": "attention_unet",
+    "filename": "best_model.pth",
+    "sha256": "53A31B93C805AC9B068A46F9D2D68045759BE16F593A6A0F1AEF8C4EF16DC4DC",
+    "bytes": 139443363,
+    "config": "configs/attention_unet.json",
+    "included": false,
+    "path": null,
+    "redistribution_basis": "Weights not distributed. Architecture source terms: project-owned implementation.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Original serialized metadata contains personal paths; checkpoint omitted without rewriting. Exact identity and frozen aggregate results are documented."
+  },
+  {
+    "model": "DeepLabV3+",
+    "id": "deeplabv3plus",
+    "filename": "best_model.pth",
+    "sha256": "486AAC7CAA6532468FE89D2A1ACA643DB653216D57EF57352CED50E71CB3AF0A",
+    "bytes": 107210007,
+    "config": "configs/deeplabv3plus.json",
+    "included": false,
+    "path": null,
+    "redistribution_basis": "Weights not distributed. Architecture source terms: project-owned implementation.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Original serialized metadata contains personal paths; checkpoint omitted without rewriting. Exact identity and frozen aggregate results are documented."
+  },
+  {
+    "model": "TriContextNet",
+    "id": "tricontextnet",
+    "filename": "best_model.pth",
+    "sha256": "725928D75D3B852D5096564E3B1DE63EB8E52912C8284B8D680490022CEEFF2A",
+    "bytes": 1475367,
+    "config": "configs/tricontextnet.json",
+    "included": true,
+    "path": "checkpoints/tricontextnet/best_model.pth",
+    "redistribution_basis": "Project-trained original; repository owner authorized public hosting. Architecture source: BSD-3-Clause; attribution retained in THIRD_PARTY_NOTICES.md. No additional project-wide reuse license is granted.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      12,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Exact frozen original; byte identity and static personal-metadata checks passed."
+  },
+  {
+    "model": "TinyU-Net",
+    "id": "tiny_unet",
+    "filename": "best_model.pth",
+    "sha256": "6152856DEF5F8A793F1B11A56B9E3E6EF37138F09FCA253E7C8D72FC0CADD380",
+    "bytes": 2123995,
+    "config": "configs/tiny_unet.json",
+    "included": true,
+    "path": "checkpoints/benchmarks/tiny_unet/best_model.pth",
+    "redistribution_basis": "Project-trained original; repository owner authorized public hosting. Architecture source: MIT; attribution retained in THIRD_PARTY_NOTICES.md. No additional project-wide reuse license is granted.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Exact frozen original; byte identity and static personal-metadata checks passed."
+  },
+  {
+    "model": "Rolling-Unet-S",
+    "id": "rolling_unet_s",
+    "filename": "best_model.pth",
+    "sha256": "FF7B6B46A09EFB4489736D141F0868FC2D8E87EC0CB4DD315F99294721D8CC5E",
+    "bytes": 7234379,
+    "config": "configs/rolling_unet_s.json",
+    "included": true,
+    "path": "checkpoints/benchmarks/rolling_unet_s/best_model.pth",
+    "redistribution_basis": "Project-trained original; repository owner authorized public hosting. Architecture source: MIT; attribution retained in THIRD_PARTY_NOTICES.md. No additional project-wide reuse license is granted.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Exact frozen original; byte identity and static personal-metadata checks passed."
+  },
+  {
+    "model": "base CMUNeXt",
+    "id": "base_cmunext",
+    "filename": "best_model.pth",
+    "sha256": "936CA8FF790F3F2118B18D14F302757C761114BE8F76A1BCE6D4D9A6AE4DC04C",
+    "bytes": 12789425,
+    "config": "configs/base_cmunext.json",
+    "included": true,
+    "path": "checkpoints/benchmarks/base_cmunext/best_model.pth",
+    "redistribution_basis": "Project-trained original; repository owner authorized public hosting. Architecture source: MIT; attribution retained in THIRD_PARTY_NOTICES.md. No additional project-wide reuse license is granted.",
+    "source_version": "598e409d939771c7be6cce02001428a7df102b11",
+    "input_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "output_format": [
+      "B",
+      4,
+      256,
+      256
+    ],
+    "preprocessing": "docs/PREPROCESSING.md",
+    "loading_example": "docs/MODELS.md",
+    "inference_example": "docs/MODELS.md",
+    "reason": "Exact frozen original; byte identity and static personal-metadata checks passed."
+  }
+]

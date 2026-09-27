@@ -1,0 +1,54 @@
+{
+  "model": "Mobile U-ViT",
+  "factory": "mobileuvit_brats:create_brats_mobileuvit",
+  "upstream": "Mobile-U-ViT",
+  "upstream_commit": "ce35b0864f51c66c20ee5315050ba445351c8891",
+  "input_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    0
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 45,
+  "parameters": 1390500,
+  "checkpoint_sha256": "EC8E23FC11524C402E1A28215DBA7A50E484C87B32ADB532E63E12619DE13CA1",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "FP32 parameters; CUDA BF16 autocast; no GradScaler",
+  "batch_size": 16,
+  "architecture_source": "src/models/mobileuvit_brats.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11"
+}

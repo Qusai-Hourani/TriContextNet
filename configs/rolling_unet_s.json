@@ -1,0 +1,54 @@
+{
+  "model": "Rolling-Unet-S",
+  "factory": "rolling_unet_brats:create_brats_rolling_unet_s",
+  "upstream": "Rolling-Unet",
+  "upstream_commit": "8a43d40c218917e454c0584a853757e3a2cf9c80",
+  "input_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "output_logits_shape": [
+    "B",
+    4,
+    256,
+    256
+  ],
+  "raw_labels": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "internal_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "modality_order": [
+    "T1",
+    "T1ce",
+    "T2",
+    "FLAIR"
+  ],
+  "context_offsets": [
+    0
+  ],
+  "spatial_shape": [
+    240,
+    240,
+    155
+  ],
+  "padding_each_side": 8,
+  "normalization": "per-volume per-modality nonzero z-score; float32 input, float64 population mean/std, zero background retained",
+  "selected_epoch": 50,
+  "parameters": 1783356,
+  "checkpoint_sha256": "FF7B6B46A09EFB4489736D141F0868FC2D8E87EC0CB4DD315F99294721D8CC5E",
+  "state_dict_key": "model_state_dict",
+  "training_precision": "FP32 parameters; FP32 forward and backward; no autocast or GradScaler",
+  "batch_size": 16,
+  "architecture_source": "src/models/rolling_unet_brats.py",
+  "source_version": "598e409d939771c7be6cce02001428a7df102b11"
+}

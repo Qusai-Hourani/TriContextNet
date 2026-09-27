@@ -1,0 +1,60 @@
+{
+  "MK-UNet": {
+    "repository": "https://github.com/SLDGroup/MK-UNet",
+    "commit": "2fa8b230a057602539af7655203ad434bf56a5b6",
+    "license": "BSD-3-Clause",
+    "bundled_files": [
+      "mkunet_network.py",
+      "LICENSE"
+    ]
+  },
+  "Rolling-Unet": {
+    "repository": "https://github.com/Jiaoyang45/Rolling-Unet",
+    "commit": "8a43d40c218917e454c0584a853757e3a2cf9c80",
+    "license": "MIT",
+    "bundled_files": [
+      "archs.py",
+      "utils.py",
+      "LICENSE"
+    ]
+  },
+  "CMUNeXt": {
+    "repository": "https://github.com/FengheTan9/CMUNeXt",
+    "commit": "affbf03ef631bb318d87b73ef97b2eacd0a5de85",
+    "license": "MIT",
+    "bundled_files": [
+      "network/CMUNeXt.py",
+      "LICENSE"
+    ]
+  },
+  "TinyU-Net": {
+    "repository": "https://github.com/ChenJunren-Lab/TinyU-Net",
+    "commit": "73147721edf36dcb0101f1ec383cb97fe42e36df",
+    "license": "MIT",
+    "bundled_files": [
+      "TinyU-Net.py",
+      "LICENSE"
+    ]
+  },
+  "Mobile-U-ViT": {
+    "repository": "https://github.com/FengheTan9/Mobile-U-ViT",
+    "commit": "ce35b0864f51c66c20ee5315050ba445351c8891",
+    "license": "Apache-2.0",
+    "bundled_files": [
+      "network/MobileUViT.py",
+      "LICENSE"
+    ]
+  },
+  "U-KAN": {
+    "repository": "https://github.com/CUHK-AIM-Group/U-KAN",
+    "commit": "b20bf63490f01ba45cc2c18834bc0c4975c12715",
+    "license": "MIT (Seg_UKAN subtree)",
+    "bundled_files": []
+  },
+  "MSMamba": {
+    "repository": "https://github.com/30Liu/MSMamba",
+    "commit": "295f6a318dd18fd19c66b16c179f28c1e9ac2033",
+    "license": "Apache-2.0 (msmamba subtree)",
+    "bundled_files": []
+  }
+}

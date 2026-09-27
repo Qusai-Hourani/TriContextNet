@@ -1,0 +1,202 @@
+[
+  {
+    "path": "external/MK-UNet/mkunet_network.py",
+    "sha256": "B9BA5ADE1B116AEF3A40CA35D756DCC15DE9336C743A2022F90475BD4DEC7031",
+    "bytes": 26407,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/MK-UNet/LICENSE",
+    "sha256": "5CA32F279CAE7BF6D906D1FF22E73D3A86F918ACB20FEF51D1327E220A407955",
+    "bytes": 1540,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/Rolling-Unet/archs.py",
+    "sha256": "4E9523FA045D70FE8C1DC68ACEF428C463B736971A4B085FE9C294034EA023B3",
+    "bytes": 23394,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/Rolling-Unet/utils.py",
+    "sha256": "BB76BCF004E5832C291AA3BDD9372E2283B4E8463873295F3F629CD8D5911995",
+    "bytes": 841,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/Rolling-Unet/LICENSE",
+    "sha256": "D4DE4A5FB6AFD423822213FFA1A8D2E23295E5377E74A40065BBAC7F3698D00A",
+    "bytes": 1088,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/CMUNeXt/network/CMUNeXt.py",
+    "sha256": "453C602BB4B8D334C79112ADED3CCDB145816B370CF0EB0B0B9FA01934B4D020",
+    "bytes": 5675,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/CMUNeXt/LICENSE",
+    "sha256": "D83F80EBBEF4FD15094627E950E88B4F23EAED41B4D28CB98BF73F27C0BD0FC2",
+    "bytes": 1089,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/TinyU-Net/TinyU-Net.py",
+    "sha256": "0ED32903D206BB419D4EC2BE843981874A1C69F792401FA10F15D39D561D611A",
+    "bytes": 5711,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/TinyU-Net/LICENSE",
+    "sha256": "F1A3A7CCA81716721DC4164A7C0BE3F14E0D1DC0D67F3C021A8A0C27CD309ADD",
+    "bytes": 1087,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/Mobile-U-ViT/network/MobileUViT.py",
+    "sha256": "4030836E7BF024AFC9F018EFB30367CB6AF9328D927165DB277EFB49F13D18B1",
+    "bytes": 12385,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "external/Mobile-U-ViT/LICENSE",
+    "sha256": "1EB85FC97224598DAD1852B5D6483BBCF0AA8608790DCC657A5A2A761AE9C8C6",
+    "bytes": 11558,
+    "origin": "Pinned upstream source; see upstream_sources.json"
+  },
+  {
+    "path": "src/models/mkunet_brats.py",
+    "sha256": "A71A28C8718C3F7D4582A88060600B7BBB14E4DBDCC971F2E8CC8E10BF370499",
+    "bytes": 1472,
+    "origin": "Frozen project source",
+    "source_sha256": "A71A28C8718C3F7D4582A88060600B7BBB14E4DBDCC971F2E8CC8E10BF370499"
+  },
+  {
+    "path": "src/models/mkunet_2p5d_brats.py",
+    "sha256": "19FAC8D155EFB4603664CA190634144A6BA4001D6F88E6A09B68B8125AEDFD80",
+    "bytes": 946,
+    "origin": "Frozen project source",
+    "source_sha256": "CA862D5E577602B8ADFC8D83105058E94C9F268769913654DB2609BFECF941BA",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/rolling_unet_brats.py",
+    "sha256": "E24CA74EB165FB45C2A8664E361C14754F326E21937A96EA01982BA4FD2C501C",
+    "bytes": 4782,
+    "origin": "Frozen project source",
+    "source_sha256": "C07AB0CEDE623E5722FAC86056A2CBF19EDE5EF91C01D0A466064D1CCD6D44FE",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/cmunext_brats.py",
+    "sha256": "08BA1E2070F2837B4015766C4A7661EEC429A880885E0111F2FA21632B0632CC",
+    "bytes": 3121,
+    "origin": "Frozen project source",
+    "source_sha256": "77A663D35EC411E7BD9B2711CFD56F6DBCB6F3416F091D38A2AF950EFC664CCD",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/tiny_unet_brats.py",
+    "sha256": "A81542A71A0B9269ED16A9F77B195201E88FE8011341B217740615534C194E4B",
+    "bytes": 4546,
+    "origin": "Frozen project source",
+    "source_sha256": "CA31B88399BA50A769B9296FE722C643A35C3E2C231B07081D54EC459706FB07",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/mobileuvit_brats.py",
+    "sha256": "0A3FB3C07FA6FD315234348CBD6F0D82F5BC579CF81C6062ED022997BEDF09C1",
+    "bytes": 1630,
+    "origin": "Frozen project source",
+    "source_sha256": "9FAA38DC1CF94EEE068641F37CD32A2567320278510E7CD21ADB3DE107332AE2",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/ukan_brats.py",
+    "sha256": "D63D4724F519F150B82A4FA31CAD9C094862B7C20DF51678A8852401D3B11BA7",
+    "bytes": 1711,
+    "origin": "Frozen project source",
+    "source_sha256": "D63D4724F519F150B82A4FA31CAD9C094862B7C20DF51678A8852401D3B11BA7"
+  },
+  {
+    "path": "src/models/msmamba_brats.py",
+    "sha256": "8CDEBB8B4B4A670ADC3C3F375D52D80385A0593E8D3C7A0AA4219D968D30A768",
+    "bytes": 6644,
+    "origin": "Frozen project source",
+    "source_sha256": "154799050160C5683A60D65350DD53B155914DDD3A091068D5E440044EA9A8CA",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/unet_brats.py",
+    "sha256": "39080987629A207CEFEACF059C0BA1AF64C44F9DD8B3797E71792D69DE006621",
+    "bytes": 3615,
+    "origin": "Frozen project source",
+    "source_sha256": "55AB55F1CB55A61081F519A916D76DE3C257F268567FD07BEE4F2E022DEB9F89",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/attention_unet_brats.py",
+    "sha256": "A670696F61624A651DFC36FF9EB6BE1D711BEA421EAC0D49F9D98B59482B0ACB",
+    "bytes": 7841,
+    "origin": "Frozen project source",
+    "source_sha256": "D0E4F609ABD560287664C78E4DAAC759BB2CCBDFF5BDA554F23E5BE58638DFFB",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "src/models/deeplabv3plus_brats.py",
+    "sha256": "F5F2D1DFAA763E162D247CA2D1BC068D571BA8928ABA85F8AAA2EC3593AE1A78",
+    "bytes": 9011,
+    "origin": "Frozen project source",
+    "source_sha256": "2B509A9D2FAC051AF845E16368AE973EBEEF8AE055C7C0DC497DA8F3C99E845B",
+    "changes": "Documentation, diagnostic wording and private import aliases only; no computational AST changes."
+  },
+  {
+    "path": "tables/frozen_context_ablation.csv",
+    "sha256": "6BDF47FFEB39BE887492DAF0A65B6D7E6A70DE88C938F3180E6087D3CBDF803C",
+    "bytes": 578,
+    "origin": "Frozen research artifact"
+  },
+  {
+    "path": "checkpoints/tricontextnet/best_model.pth",
+    "sha256": "725928D75D3B852D5096564E3B1DE63EB8E52912C8284B8D680490022CEEFF2A",
+    "bytes": 1475367,
+    "origin": "Exact project-trained checkpoint; see checkpoints/MODEL_MANIFEST.json"
+  },
+  {
+    "path": "checkpoints/benchmarks/rolling_unet_s/best_model.pth",
+    "sha256": "FF7B6B46A09EFB4489736D141F0868FC2D8E87EC0CB4DD315F99294721D8CC5E",
+    "bytes": 7234379,
+    "origin": "Exact project-trained checkpoint; see checkpoints/MODEL_MANIFEST.json"
+  },
+  {
+    "path": "checkpoints/benchmarks/base_cmunext/best_model.pth",
+    "sha256": "936CA8FF790F3F2118B18D14F302757C761114BE8F76A1BCE6D4D9A6AE4DC04C",
+    "bytes": 12789425,
+    "origin": "Exact project-trained checkpoint; see checkpoints/MODEL_MANIFEST.json"
+  },
+  {
+    "path": "figures/02_accuracy_efficiency.png",
+    "sha256": "175F57F2DCE4DDA6F6FE86FD7C756CFCF56D8584C3809E51BBC52579019D6D79",
+    "bytes": 149661,
+    "origin": "Unchanged frozen aggregate research figure"
+  },
+  {
+    "path": "figures/03_context_ablation.png",
+    "sha256": "B07F3515D7F477CA6A4971440080F2986DB633A3CD8FD1E05769E5627C53E12B",
+    "bytes": 157624,
+    "origin": "Unchanged frozen aggregate research figure"
+  },
+  {
+    "path": "checkpoints/benchmarks/tiny_unet/best_model.pth",
+    "sha256": "6152856DEF5F8A793F1B11A56B9E3E6EF37138F09FCA253E7C8D72FC0CADD380",
+    "bytes": 2123995,
+    "origin": "Exact project-trained checkpoint; see checkpoints/MODEL_MANIFEST.json"
+  },
+  {
+    "path": "figures/tricontextnet_architecture.jpg",
+    "sha256": "7B81290CEB02B006D07D74DBEF79B02C4D2B04200BA2E86EF4E13DC31780FF3A",
+    "bytes": 1730518,
+    "origin": "Author-designated corrected architecture JPEG; copied without modification"
+  }
+]
